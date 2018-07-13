@@ -4202,7 +4202,7 @@ h3+.panel-custom-group-wrap {
 
 .pricing-table {
 	position: relative;
-	max-width: 300px;
+	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 15px;
@@ -4324,7 +4324,7 @@ h3+.panel-custom-group-wrap {
 }
 
 .pricing-table-wrap {
-	padding-top: 40px;
+	padding-top: 0px;
 }
 
 .timeline-heading img {
@@ -6282,6 +6282,11 @@ html .page .group-bottom>*, html .page .group-bottom>*:first-child {
 .section-md, .section-lg, .section-xl {
 	padding-top: 60px;
 	padding-bottom: 60px;
+}
+
+.section-xl-padding-top-s{
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .section-xxl {
