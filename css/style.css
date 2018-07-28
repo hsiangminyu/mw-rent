@@ -6002,15 +6002,15 @@ h6+.rating-list {
 	background-position: center bottom;
 }
 
-.bg-image-cover1{
-	background-image: url("../images_mw/new-cover.jpg");
+.bg-image-cover{
+	background-image: url("/images/m2.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .bg-image-2 {
-	background-image: url("../images/bg-image-2.jpg");
+	background-image: url("../images/bg2.png");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
