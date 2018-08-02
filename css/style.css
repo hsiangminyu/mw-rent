@@ -3209,8 +3209,8 @@ a.thumbnail-classic-title:hover {
 	position: relative;
 	left: -1px;
 	display: inline-block;
-	padding: 0 5px;
-	content: "/";
+	padding: 0 6px;
+	content: "  ";
 	vertical-align: baseline;
 }
 
@@ -6002,15 +6002,15 @@ h6+.rating-list {
 	background-position: center bottom;
 }
 
-.bg-image-cover{
-	background-image: url("/images/m2.jpg");
+.bg-image-hero{
+	background-image: url("../images/hero-image.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .bg-image-2 {
-	background-image: url("../images/bg2.png");
+	background-image: url("../images/hero-image.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
