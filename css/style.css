@@ -5004,6 +5004,12 @@ h3+.panel-custom-group-wrap {
 	color: #2fb8cc;
 }
 
+.product-price-hashtag {
+	font-size: 24px;
+	font-weight: bold;
+	color: #2fb8cc;
+}
+
 .product-price span:before {
 	content: "$";
 	display: inline-block;
