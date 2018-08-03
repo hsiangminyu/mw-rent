@@ -949,7 +949,7 @@ span.button {
 @media (min-width: 1200px) {
 	.blurb__title {
 		font-size: 24px;
-		line-height: 1.54167;
+		line-height: 1.2;
 	}
 	*+.blurb__title {
 		margin-top: 45px;
@@ -2867,6 +2867,12 @@ a.thumbnail-classic-title:hover {
 	width: 100px;
 	height: auto;
 	border-radius: 100%;
+}
+
+.quote-default__image_rounded img {
+	width: 100px;
+	height: auto;
+	border-radius: 50%;
 }
 
 .quote-default__cite {
@@ -6298,8 +6304,8 @@ html .page .group-bottom>*, html .page .group-bottom>*:first-child {
 }
 
 .section-xl-padding-top-s{
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 55px;
+	padding-bottom: 55px;
 }
 
 .section-xxl {
