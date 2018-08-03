@@ -4206,6 +4206,27 @@ h3+.panel-custom-group-wrap {
 	transform: scale(1);
 }
 
+.price-text{
+	font-size: 40px;
+	font-weight: 10;
+	line-height:0.5;
+	color: #2fb8cc;
+}
+
+.price-title{
+	font-size: 40px;
+	font-weight: 10;
+	line-height:0.5;
+	
+}
+
+.price-text span {
+	font-size: 20px;
+	font-weight: 100;
+	color: #2fb8cc;
+}
+
+
 .pricing-table {
 	position: relative;
 	max-width: 600px;
@@ -4220,6 +4241,13 @@ h3+.panel-custom-group-wrap {
 	font-size: 40px;
 	font-weight: 100;
 	color: #2fb8cc;
+}
+
+.pricing-table .price-subtext{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #FFF;
+	background-color: #2fb8cc;
 }
 
 .pricing-table .price span:last-of-type {
@@ -5013,7 +5041,9 @@ h3+.panel-custom-group-wrap {
 .product-price-hashtag {
 	font-size: 24px;
 	font-weight: bold;
+	line-height: 1.5;
 	color: #2fb8cc;
+	margin-top: 12px;
 }
 
 .product-price span:before {
