@@ -188,6 +188,10 @@ img {
 	height: auto;
 }
 
+.img-name{
+	margin-bottom: 20px;
+}
+
 hr {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -5912,6 +5916,16 @@ h6+.rating-list {
 
 .bg-default {
 	background-color: #fff;
+}
+
+.bg-default .button-temp {
+	color: #fff;
+	background-color: #2fb8cc;
+	border-color: #2fb8cc;
+}
+.button-temp:hover {
+    background-color: #000; /* Green */
+    color: white;
 }
 
 .bg-default+.bg-default.section-md, .bg-default+.bg-default.section-lg, .bg-default+.bg-default.section-xl {
