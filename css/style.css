@@ -691,7 +691,7 @@ h2 .label {
 	opacity: 1;
 }
 
-.button {
+.button {	
 	display: inline-block;
 	width: auto;
 	max-width: 100%;
@@ -5922,7 +5922,14 @@ h6+.rating-list {
 	color: #fff;
 	background-color: #2fb8cc;
 	border-color: #2fb8cc;
+	font-size: 18px;
 }
+
+.button-temp span {
+	margin-top: -3px;
+	font-size: 14px;
+}
+
 .button-temp:hover {
     background-color: #000; /* Green */
     color: white;
