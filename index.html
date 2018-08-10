@@ -20,11 +20,24 @@
 </head>
 
 <body>
-
   <!-- Page Header-->
   <header class="page-header">
   </header>
 
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+  
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="208334499773904" theme_color="#0084ff" logged_in_greeting="哈囉你好嗎？啾啾"
+      logged_out_greeting="哈囉你好嗎？啾啾">
+    </div>
 
   <section class="bg-gray-lighter">
     <!-- RD Parallax-->
@@ -40,7 +53,7 @@
                   <h4 style="color:white;">
                     在家的星光電影體驗</h4>
                   <h4 style="color:white;">在平凡的地方做不平凡的事</h4>
-                  <a href="http://bit.ly/2KDO3v8" class="button button-lg button-temp" data-caption-animate="fadeInUpSmall" data-caption-delay="350">搶先預約 2,499/4H
+                  <a href="http://bit.ly/2KDO3v8" class="button button-lg button-temp" data-caption-animate="fadeInUpSmall" data-caption-delay="350">搶先預約 2,699/4H
                     <span>
                       <br>首波開放「信義區」「松山區」</span>
                   </a>
@@ -218,7 +231,7 @@
               </ul>
             </div>
 
-            <a href="http://bit.ly/2KDO3v8" class="button button-lg button-temp" data-caption-animate="fadeInUpSmall" data-caption-delay="350">搶先預約 2,499/4H</a>
+            <a href="http://bit.ly/2KDO3v8" class="button button-lg button-temp" data-caption-animate="fadeInUpSmall" data-caption-delay="350">搶先預約 2,699/4H</a>
 
           </div>
         </div>
@@ -292,13 +305,10 @@
   </section>
 
   <section class="section-sm bg-gray-lighter text-center">
-        <h5>「我家空間夠大嗎」「適合幾個人呢」「帳篷多高呀」</h5>
-        <a href="http://bit.ly/2KAjRRB" 
-        class="button button-gray-light-outline" 
-        data-caption-animate="fadeInUpSmall" 
-        data-caption-delay="350">常見問題</a>
-      </div>
-    </section>
+    <h5>「我家空間夠大嗎」「適合幾個人呢」「帳篷多高呀」</h5>
+    <a href="http://bit.ly/2KAjRRB" class="button button-gray-light-outline" data-caption-animate="fadeInUpSmall" data-caption-delay="350">常見問題</a>
+    </div>
+  </section>
 
   <!-- Page Footer-->
   <footer class="footer-minimal">
@@ -321,10 +331,10 @@
 
         </li>
         <p class="rights">
-            <span>MonkeyWednesday</span>
-            <span id="copyright-year"></span>
-            <!-- {%FOOTER_LINK}-->
-          </p>
+          <span>MonkeyWednesday</span>
+          <span id="copyright-year"></span>
+          <!-- {%FOOTER_LINK}-->
+        </p>
         </ll>
       </ul>
   </footer>
