@@ -5940,9 +5940,14 @@ h6+.rating-list {
 }
 
 .bg-accent .button-primary, .bg-secondary-7 .button-primary {
-	color: #000;
-	background-color: #fff;
-	border-color: #fff;
+	color: #fff;
+	background-color: #2fb8cc;
+	border-color: #2fb8cc;
+}
+
+.bg-accent .button-primary, .bg-secondary-7 .button-primary span {
+	margin-top: -3px;
+	font-size: 12px;
 }
 
 .bg-accent .button-primary:hover, .bg-accent .button-primary:focus, .bg-accent .button-primary:active, .bg-accent .button-primary:hover, .bg-secondary-7 .button-primary:hover, .bg-secondary-7 .button-primary:focus, .bg-secondary-7 .button-primary:active, .bg-secondary-7 .button-primary:hover {
