@@ -3358,7 +3358,7 @@ h3+.panel-custom-group-wrap {
 }
 
 .panel-classic .panel-custom-title>a:before {
-	content: "\e93c";
+	content: "\e9ff";
 	top: 47%;
 	left: 0;
 	right: auto;
@@ -3367,7 +3367,7 @@ h3+.panel-custom-group-wrap {
 }
 
 .panel-classic .panel-custom-title>a.collapsed:before {
-	content: '\e93c';
+	content: '\e9ff';
 	transform: translateY(-50%) rotate(0deg);
 }
 
