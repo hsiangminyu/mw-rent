@@ -4549,6 +4549,12 @@ h3+.panel-custom-group-wrap {
 	}
 }
 
+/* MW parallax */
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+}
+
 .parallax-header__inner {
 	position: relative;
 	text-align: center;
