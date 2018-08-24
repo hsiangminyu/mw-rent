@@ -4262,6 +4262,23 @@ h3+.panel-custom-group-wrap {
 	display: flex;
 }
 
+.pricing-table .button-temp {
+	color: #fff;
+	background-color: #2fb8cc;
+	border-color: #2fb8cc;
+	font-size: 18px;
+	margin: 2px;
+}
+
+.button-temp span {
+	font-size: 16px;
+}
+
+.button-temp:hover {
+    background-color: #000; /* Green */
+    color: white;
+}
+
 @media (min-width: 768px) {
 	.pricing-table {
 		padding: 27px;
@@ -5916,23 +5933,6 @@ h6+.rating-list {
 
 .bg-default {
 	background-color: #fff;
-}
-
-.bg-default .button-temp {
-	color: #fff;
-	background-color: #2fb8cc;
-	border-color: #2fb8cc;
-	font-size: 18px;
-}
-
-.button-temp span {
-	margin-top: -3px;
-	font-size: 14px;
-}
-
-.button-temp:hover {
-    background-color: #000; /* Green */
-    color: white;
 }
 
 .bg-default+.bg-default.section-md, .bg-default+.bg-default.section-lg, .bg-default+.bg-default.section-xl {

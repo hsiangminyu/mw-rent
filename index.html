@@ -24,25 +24,25 @@
   <header class="page-header">
   </header>
 
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>(function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-  
-    <!-- Your customer chat code -->
-    <div class="fb-customerchat" attribution=setup_tool page_id="208334499773904" theme_color="#0084ff" logged_in_greeting="哈囉你好嗎？有任何問題都可以問我喔"
-      logged_out_greeting="哈囉你好嗎？有任何問題都可以問我喔">
-    </div>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat" attribution=setup_tool page_id="208334499773904" theme_color="#0084ff" logged_in_greeting="哈囉你好嗎？有任何問題都可以問我喔"
+    logged_out_greeting="哈囉你好嗎？有任何問題都可以問我喔">
+  </div>
 
   <section>
     <!-- RD Parallax-->
     <div class="parallax-container bg-secondary-7 parallax-header" data-parallax-img="images/hero-image-light.jpeg">
-      
+
       <div class="parallax-content">
         <div class="parallax-header__inner section-xl">
           <div class="parallax-header__content">
@@ -55,12 +55,12 @@
                     解鎖聚會的全新模式</h4>
                   <!-- <h4 style="color:white;">在平凡的地方做不平凡的事</h4> -->
 
-                    <div class="group-lg">
-                        <a class="button button-lg button-primary" data-caption-animate="fadeInUpSmall" data-caption-delay="350" href="http://bit.ly/2KDO3v8"
-                          data-custom-scroll-to="section-see-features">搶先預約 2,699/4H
-                          <span>
-                            <br>首波開放「信義區」「松山區」</span></a>
-                      </div>
+                  <div class="group-lg">
+                    <a class="button button-lg button-primary" data-caption-animate="fadeInUpSmall" data-caption-delay="350" href="http://bit.ly/2KDO3v8"
+                      data-custom-scroll-to="section-see-features">搶先預約 2,699/4H
+                      <span>
+                        <br>首波開放「信義區」「松山區」</span></a>
+                  </div>
 
                   <!-- <a href="" class="button button-lg button-primary" data-caption-animate="fadeInUpSmall" data-caption-delay="350"> -->
                   <!-- </a> -->
@@ -222,7 +222,7 @@
         <div class="col-lg-5">
           <div class="pricing-table">
             <div class="pricing-header">
-              <div class="price-title text-left">
+              <div class="price-title">
                 聚會同樂價
               </div>
             </div>
@@ -237,9 +237,16 @@
                 <li>【組裝＋運送】專人到府服務快速拆裝</li>
               </ul>
             </div>
-
-            <a href="http://bit.ly/2KDO3v8" class="button button-lg button-temp" data-caption-animate="fadeInUpSmall" data-caption-delay="350">搶先預約 2,699/4H</a>
-
+            
+              <div class="justify-content-around align-items-center">
+                <a href="http://bit.ly/2KDO3v8">
+                  <div class="button button-lg button-temp">平日優惠價 <span>2699/4hr</span></div>
+                </a>
+                <a href="http://bit.ly/2KDO3v8">
+                  <div class="button button-lg button-temp">週末放鬆價 <span>2999/4hr</span></div>
+                </a>
+              </div>
+            
           </div>
         </div>
 
@@ -270,7 +277,7 @@
             <div class="quote-default__text">
               <p class="q">本來很擔心家裡放不下，沒想到安裝之後效果很好！謝謝猴子星期三，給了我們一個特別的聚會！真的好喜歡</p>
             </div>
-            <p class="quote-default__cite">陳小姐,27歲,上班族</p>
+            <p class="quote-default__cite text-center">陳小姐,27歲,上班族</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
@@ -287,7 +294,7 @@
             <div class="quote-default__text">
               <p class="q">兩位創辦人從前期的空間諮詢，到現場安裝都非常細心貼心。沒想過平常熟悉的客廳還可以變得這麼美！連普通的pizza外送都變得更美味了</p>
             </div>
-            <p class="quote-default__cite">林小姐,30歲,上班族</p>
+            <p class="quote-default__cite text-center">林小姐,30歲,上班族</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
@@ -304,7 +311,7 @@
             <div class="quote-default__text">
               <p class="q">小孩出生之後，每次要與朋友聚會都覺得麻煩。有了猴子星期三，讓我們在家過了一個超棒的聚會</p>
             </div>
-            <p class="quote-default__cite">Sam,32歲</p>
+            <p class="quote-default__cite text-center">Sam,32歲</p>
           </div>
         </div>
       </div>
@@ -322,15 +329,14 @@
           <div class="panel-custom-heading" id="1Heading" role="tab">
             <h5 class="panel-custom-title">
               <a class="collapsed" role="button" data-toggle="collapse" data-parent="#1" href="#1Collapse" aria-controls="1Collapse">
-                  我家放得下嗎？</a>
+                我家放得下嗎？</a>
             </h5>
           </div>
           <div class="panel-custom-collapse collapse" id="1Collapse" role="tabpanel" aria-labelledby="1Heading">
             <div class="panel-custom-body">
               <p>
-                  建議最少保留兩坪空間以享有最佳體驗（一坪方為180*180公分），套組中只有兩個體積稍大的物品<br>
-                  1) 帳篷：長120 x 寬120公分 <br>
-                  2) 投影幕：長180 x 高160 x 寬15，距離保留 1 公尺就可享有80吋投影的享受
+                建議最少保留兩坪空間以享有最佳體驗（一坪方為180*180公分），套組中只有兩個體積稍大的物品<br> 1) 帳篷：長120 x 寬120公分 <br> 2) 投影幕：長180 x 高160 x 寬15，距離保留
+                1 公尺就可享有80吋投影的享受
               </p>
             </div>
           </div>
@@ -338,8 +344,8 @@
         <!-- Bootstrap panel-->
         <div class="panel panel-custom panel-classic">
           <div class="panel-custom-heading" id="2Heading" role="tab">
-            <h5 class="panel-custom-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#2" href="#2Collapse" 
-              aria-controls="2Collapse">會有人來裝嗎？</a>
+            <h5 class="panel-custom-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#2" href="#2Collapse"
+                aria-controls="2Collapse">會有人來裝嗎？</a>
             </h5>
           </div>
           <div class="panel-custom-collapse collapse" id="2Collapse" role="tabpanel" aria-labelledby="2Heading">
@@ -351,8 +357,8 @@
         <!-- Bootstrap panel-->
         <div class="panel panel-custom panel-classic">
           <div class="panel-custom-heading" id="3Heading" role="tab">
-            <h5 class="panel-custom-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#3" href="#3Collapse" 
-              aria-controls="3Collapse">4小時怎麼算？包含你們組裝以及回收時間嗎？組裝多久？</a>
+            <h5 class="panel-custom-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#3" href="#3Collapse"
+                aria-controls="3Collapse">4小時怎麼算？包含你們組裝以及回收時間嗎？組裝多久？</a>
             </h5>
           </div>
           <div class="panel-custom-collapse collapse" id="3Collapse" role="tabpanel" aria-labelledby="3Heading">
@@ -364,20 +370,30 @@
         <!-- Bootstrap panel-->
         <div class="panel panel-custom panel-classic">
           <div class="panel-custom-heading" id="4Heading" role="tab">
-            <h5 class="panel-custom-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#4" href="#4Collapse" 
-              aria-controls="4Collapse">其他問題</a>
+            <h5 class="panel-custom-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#4" href="#4Collapse"
+                aria-controls="4Collapse">其他問題</a>
             </h5>
           </div>
           <div class="panel-custom-collapse collapse" id="4Collapse" role="tabpanel" aria-labelledby="4Heading">
             <div class="panel-custom-body">
-                <ul>
-                    <li><p><a href="https://goo.gl/gr6N4x">場地相關</a></p></li>
-                    <li><p><a href="https://goo.gl/187hVX">設備及安裝</a></p></li>
-                    <li><p><a href="https://goo.gl/MXfuzC">聯絡相關</a></p></li>
-                    <li><p><a href="https://goo.gl/jj5bTb">預約及付款</a></p></li>
-                    <li><p><a href="https://goo.gl/HgdmXL">取消、延長、更改</a></p></li>
-                  </ul>
-                  若您還有其他問題，歡迎從網站右下角私訊我們，讓線上客服為您解答！
+              <ul>
+                <li>
+                  <p><a href="https://goo.gl/gr6N4x">場地相關</a></p>
+                </li>
+                <li>
+                  <p><a href="https://goo.gl/187hVX">設備及安裝</a></p>
+                </li>
+                <li>
+                  <p><a href="https://goo.gl/MXfuzC">聯絡相關</a></p>
+                </li>
+                <li>
+                  <p><a href="https://goo.gl/jj5bTb">預約及付款</a></p>
+                </li>
+                <li>
+                  <p><a href="https://goo.gl/HgdmXL">取消、延長、更改</a></p>
+                </li>
+              </ul>
+              若您還有其他問題，歡迎從網站右下角私訊我們，讓線上客服為您解答！
             </div>
           </div>
         </div>
