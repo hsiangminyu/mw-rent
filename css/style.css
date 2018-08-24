@@ -3358,17 +3358,17 @@ h3+.panel-custom-group-wrap {
 }
 
 .panel-classic .panel-custom-title>a:before {
-	content: "\e9ff";
+	content: "\eb37";
 	top: 47%;
 	left: 0;
 	right: auto;
-	transform: translateY(-50%) rotate(90deg);
+	/* transform: translateY(-50%) rotate(90deg); */
 	transition: .35s all ease-in-out;
 }
 
 .panel-classic .panel-custom-title>a.collapsed:before {
-	content: '\e9ff';
-	transform: translateY(-50%) rotate(0deg);
+	content: '\eab9';
+	/* transform: translateY(-50%) rotate(0deg); */
 }
 
 .panel-classic .panel-custom-title>a:hover {
