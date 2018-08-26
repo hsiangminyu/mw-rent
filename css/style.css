@@ -4552,8 +4552,12 @@ h3+.panel-custom-group-wrap {
 /* MW parallax */
 .parallax-window {
     min-height: 600px;
-    background: transparent;
+	background: transparent;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
 }
+
 
 .parallax-header__inner {
 	position: relative;
