@@ -784,6 +784,7 @@ span.button {
 	color: #000;
 	background-color: transparent;
 	border-color: #e0e0e2;
+
 }
 
 .page span.button-gray-light-outline:hover, .page span.button-gray-light-outline:focus, .page span.button-gray-light-outline:active, .page span.button-gray-light-outline:hover {
@@ -801,6 +802,12 @@ span.button {
 .button-sm {
 	padding: 6px 25px;
 	font-size: 13px;
+	line-height: 24px;
+}
+
+.button-text-lg {
+	padding: 12px 30px;
+	font-size: 16px;
 	line-height: 24px;
 }
 
